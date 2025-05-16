@@ -24,4 +24,4 @@ FilteredProducts AS (
 SELECT Category, ProductName, Price, InventoryStatus
 FROM FilteredProducts
 ORDER BY Price DESC
-OFFSET 5 ROWS;
+OFFSET 5 ROWS; 
