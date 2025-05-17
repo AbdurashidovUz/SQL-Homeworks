@@ -112,5 +112,5 @@ SELECT
     Department,
     Salary,
     ROUND((Salary * 100.0 / SUM(Salary) OVER (PARTITION BY Department)), 2) AS SalaryPercentage
-FROM Employees
+FROM Employees  
 ORDER BY Department, Salary DESC;
