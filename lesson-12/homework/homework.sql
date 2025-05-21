@@ -2,7 +2,7 @@
 CREATE PROCEDURE usp_GetDatabaseSchemaInfo
 AS
 BEGIN
-    -- Using basic SELECT with system views
+  
     SELECT 
         DB_NAME() AS DatabaseName,
         s.name AS SchemaName,
